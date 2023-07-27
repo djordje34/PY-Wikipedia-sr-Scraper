@@ -1,0 +1,1 @@
+path/to/media_resource.tab filter=lfs diff=lfs merge=lfs -text
