@@ -16,9 +16,7 @@ while True:
         maxInt = int(maxInt/2)
 with open("media_resource.tab", "r", encoding="utf8") as f:
     reader = csv.reader(f, delimiter="\t")
-    # Skip the first row, which is the header
     next(reader)
-    #for i in range()
     ctr =0
     for level,row in enumerate(reader):
         (identifier, taxon_ID, type, format, CVterm,\
